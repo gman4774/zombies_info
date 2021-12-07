@@ -25,13 +25,13 @@ The data provided two columns, one for the month one for the numerical value goo
 <br>
 The data didnt need much cleaning at first since it had a simple layout and not that many data points.
 <br>
-I create a line chart in a second sheet with the data to get a more visual look at the data.
+I created a line chart in a second sheet with the data to get a more visual look at the data.
 <br>
 
 ![first chart.](chart_0.png "This is the first chart.")
 
 <br>
- I notice the spikes seem to be evenly spaced, so I suspect they may line up with October of each year for Halloween.
+ I noticed the spikes seem to be evenly spaced, so I suspect they may line up with October of each year for Halloween.
 <br>
 Going back to the first sheet, I decide to make a third column where I will mark the row with `H` for Halloween if the date matches correctly.
 <br>
@@ -40,7 +40,7 @@ After some trial and error I decided to use the following for the whole column:
 ```
 =IF(MONTH(A203)=10, "H", "")
 ```
-This checked if the date in the corresping row was month=10(OCTOBER) the it woould update the current third column with `H` , otherwise it would leave it blank.
+This checked if the date in the corresping row was month=10(OCTOBER) the it would update the current third column with `H` , otherwise it would leave it blank.
 
 <br>
 Now I have an entire third row telling me when a datapoint corresponds to Halloween.
@@ -83,7 +83,7 @@ June again came out on top with the highest trending, but now it also provided m
 <br>
 I have no idea what could have caused this extreme outlier in the data, so I dig deeper.
 <br>
-I look into zombie movies released during `2012` but noothing significant matches.
+I look into zombie movies released during `2012` but nothing significant matches.
 <br>
 I look into any zombie related TV shows, but again nothing matches.
 <br>
